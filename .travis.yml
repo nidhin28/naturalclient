@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: zIj0KVu3+IT0nCPUPvNCI7WAg1m09icyMWPRwu2YEMnpx5hazFOl4+OlR8mb2VXRdLOn6235BwUXidm4DqtkFCbRE/gIU2zY3w0ukj4mRiZdZSHg3swMhadvFem8bIbqxXz0zo/5bZkjC1wl+Un/Hh/DvYnT3sWL8bQRgrkvsCv0E1ByocbYgYpXECzNx6wHdA9jFPx/mcrWOymDhY9+CrBh2UHOS/emSpTsIdddh5j+7qhZe6hZ3uRyILfZK5EU8ExtZwWuUbST8fUT4bcwSVpdilHXxjEKqTq1uxZu/j/4baVv8w/8f/fuEzmVpAPsNv0HBMrpK6GIU0Av7C3jyQeTq3K1wspMtt480Ozn/JyrbydGO0XFrNXo4IeLOl5kQI+Xfuxmd12LukSGrql7I2lgDHS9sYqKy60HFIYwiHoCOtFVL8Z/q1+Da9yxkq3v/d9YPzfbzDdls+DKvV4eF2B+ia4DrL6JQr0WsqWmhTv39wQ2lMXH4szRUPY0UXo5h11fa/EsWtNawAoTAyTCs/jYbsxNcCTpSxpr0jxvm2QR8WbP+KI5Wv87KlxroyJAicn2YrO0TL7Q3kbbPvJcIHcIupCLef5nj23obHcbSREBdho4TNf3WZmuDvBkrot+EFoqfqBDp8JSzp1VKJKCCm2pxzUD+J1ZHwUhD62rsCM=
+  app: arcane-wildwood-36465
+  on:
+    repo: nidhin28/naturalclient
