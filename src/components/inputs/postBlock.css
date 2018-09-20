@@ -1,0 +1,40 @@
+.poemBlock{
+	border-left: 2px solid lightblue;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.poemBlock:hover{
+	cursor: default;
+}
+
+.poemBlock h4{
+	font-size: 22px;
+}
+
+.poemTitle:hover{
+	cursor: pointer;
+	color: purple;
+}
+
+.poemBlock p{
+	font-size: 18px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.icon-wrapper p{
+	display: inline-block;
+}
+
+@media only screen and (min-width: 520px){
+	p{
+		display: inline-block;
+	}
+}
+
+@media only screen and (min-width: 600px){
+	p{
+		display: block;
+	}
+}
